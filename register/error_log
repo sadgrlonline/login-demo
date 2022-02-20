@@ -1,0 +1,1 @@
+[22-Oct-2021 12:55:42 US/Eastern] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/sadness/public_html/login-demo/register/index.php on line 67
