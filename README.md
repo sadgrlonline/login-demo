@@ -2,7 +2,7 @@
 
 This is a demonstration of a secure registration and login system built with PHP and SQL.
 
-This demo has been tested with PHP 7.2.34.
+This demo has been tested with PHP 7.4
 
 # About This Project
 

@@ -24,7 +24,7 @@ if (isset($_GET["key"]) && isset($_GET["username"]) && isset($_GET["action"])
     if ($error != "") {
         echo "<div class='error'>" . $error . "</div><br />";
     }
-} // isset email key validate end
+}
 
 if (isset($_POST["username"]) && isset($_POST["action"]) &&
     ($_POST["action"] == "update")) {

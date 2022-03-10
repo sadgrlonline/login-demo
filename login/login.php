@@ -1,6 +1,5 @@
 <?php
 
-// include
 include "../config.php";
 
 // runs when submit button is clicked

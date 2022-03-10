@@ -8,19 +8,17 @@
     </head>
 
     <body>
-    <div class="container">
-                    <h1>Reset Password</h1>
-    <div>
-    <form method="post" action="" name="update">
-        <input type="hidden" name="action" value="update" />
-        <label><strong>Enter New Password:</strong></label><br />
-        <input type="password" name="pass1" maxlength="15" required /><br>
-        <label><strong>Re-Enter New Password:</strong></label><br />
-        <input type="password" name="pass2" maxlength="15" required />
-        <input type="hidden" name="username" value="<?php echo $username; ?>" /><br><br>
-        <input type="submit" value="Reset" />
+        <div class="container">
+            <h1>Reset Password</h1>
+            <form method="post" action="" name="update">
+                <input type="hidden" name="action" value="update" />
+                <label><strong>Enter New Password:</strong></label><br />
+                <input type="password" name="pass1" maxlength="15" required /><br>
+                <label><strong>Re-Enter New Password:</strong></label><br />
+                <input type="password" name="pass2" maxlength="15" required />
+                <input type="hidden" name="username" value="<?php echo $username; ?>" /><br><br>
+                <input type="submit" value="Reset" />
+            </form>
         </div>
-    </form>
-    </div>
     </body>
 </html>
