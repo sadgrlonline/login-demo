@@ -1,0 +1,5 @@
+# ignore config
+config.php
+
+# ignore errors
+error_log
