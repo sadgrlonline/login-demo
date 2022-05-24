@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start()
 ?>
 
 <!DOCTYPE html>
@@ -8,13 +8,11 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
-    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="assets/css/style.css" media="all">
 </head>
-
-<body>
-    <div class="container">
+<div class="container">
     <?php include "nav.php" ?>
-    <h1>Registration & Login Demo</h1>
+        <h1>Registration & Login Demo</h1>
         <div>
             <p>This is a demo of a working registration and login system. It includes the following:</p>
             <ul>
@@ -30,5 +28,4 @@ session_start();
             </ul>
         </div>
     </div>
-</body>
-</html>
+</div>
